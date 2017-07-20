@@ -1,0 +1,32 @@
+// Place all the styles related to the Homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#home-view-container {
+    background: url('https://s-media-cache-ak0.pinimg.com/736x/00/23/67/0023673fc35e5d70c7f09235ca18f863--chicago-usa-chicago-trip.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 40px);
+    width: 100vw;
+}
+
+.home-header {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 7em;
+    margin: 0;
+}
+
+.index-header {
+    color: #FCFCFC;
+    font-size: 24px;
+    line-height: 3em;
+}
+
+.container {
+    margin: 0 5em;
+    padding: 3em;
+}
+
+.alert {
+    margin: 0;
+}
